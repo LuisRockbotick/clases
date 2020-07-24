@@ -19,7 +19,7 @@ function Mover_Pelota () {
         }
         Puntos += 1
     } else {
-        if (Pelota.get(LedSpriteProperty.X) == 4) {
+        if (Pelota.get(LedSpriteProperty.Y) == 4) {
             basic.clearScreen()
             basic.showString("Game Over")
             basic.showString("Puntos")
